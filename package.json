@@ -1,5 +1,5 @@
 {
-  "name": "TaskManager-reactjs",
+  "name": "taskmanager-reactjs",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://m6code.github.io/TaskManager-reactjs",
@@ -15,8 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeply": "npm run build",
-    "deploy": "gh-pages -b build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
